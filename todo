@@ -1,0 +1,10 @@
+Define Integration Type --> https://developers.home-assistant.io/docs/creating_integration_manifest/#integration-type  --> homeassistant/generated/integrations.json
+Add a complete manifest --> https://developers.home-assistant.io/docs/creating_integration_manifest/#integration-type
+Define quality scale --> https://www.home-assistant.io/docs/quality_scale/
+Create async method hub.connect() --> config_flow
+
+En __init__ en el method async setup entry:
+    # 1. Create API instance
+    # 2. Validate the API connection (and authentication)
+    # 3. Store an API object for your platforms to access
+    # hass.data[DOMAIN][entry.entry_id] = MyApi(...)

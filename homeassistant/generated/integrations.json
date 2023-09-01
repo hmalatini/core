@@ -152,6 +152,12 @@
         }
       }
     },
+    "ajax_uartbridge": {
+      "name": "Ajax UartBridge",
+      "integration_type": "hub",
+      "config_flow": true,
+      "iot_class": "local_push"
+    },
     "aladdin_connect": {
       "name": "Aladdin Connect",
       "integration_type": "hub",

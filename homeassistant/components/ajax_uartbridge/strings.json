@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "select_device": {
+        "data": {
+          "usb_device_path": "Select USB device connected to Ajax UARTBridge"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "invalid_auth": "[%key:common::config_flow::error::invalid_auth%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]",
+      "no_devices_found": "The selected devices was not found",
+      "no_device_selected": "No device selected. Please, select one device to continue the configuration."
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  }
+}
